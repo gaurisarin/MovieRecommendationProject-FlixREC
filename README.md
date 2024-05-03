@@ -37,7 +37,14 @@ Run: `python main.py`
 
 `main.py` - runs the Chatbot from the terminal
 
+
 ---
+Collaborative Project:
+FlixREC-Movie Recommendation System					                                    Feb 2024 - April 2024      
+      ● Spearheaded and led a team of three to  the development of a chatbot using BERT and TF-IDF, enhancing user experience 
+         through tailored movie recommendations based on statistical analysis
+      ● Engineered the GUI of 'MovieMATE' using the Tkinter library, designing intuitive user interfaces that enhanced user interaction
+         and satisfaction with the movie recommendation system
 
 #### General Notes 
 * Loading the program may take a little while
