@@ -1,0 +1,214 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, would you like me to recommend a movie?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Talk to you later",
+      "Goodbye!",
+      "Happy Watching!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "This bot was made by Gauri, Smita, Thanoshi, and Christa"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i talking to",
+      "what are you"
+   ],
+   "responses": [
+      "I am nameless. I live to recommend.",
+      "I am a Movie Recommendation Chatbot."
+   ],
+   "context_set": ""
+},
+{
+   "tag": "genre",
+   "patterns": [
+      "I want to watch a western",
+      "I want to watch a romance film",
+      "Could I have a drama",
+      "I want to watch a romance movie",
+      "I want to watch a comedy movie",
+      "Could you recommend an action movie",
+      "I feel like a horror film",
+      "I kind of want to watch a horror film today",
+      "Do you have any recommendations for a ___ movie",
+      "I want a __ movie"
+   ],
+   "responses": [
+      "[Recommended movie]"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "similar",
+   "patterns": [
+      "something like",
+      "Can you recommend something similar to",
+      "Can you show me something similar to Mamma Mia",
+      "how about something like finding nemo",
+      "What is like",
+      "movie like",
+      "watch like",
+      "similar to",
+      "sort of like"
+   ],
+   "responses": [
+      "[Recommended movie]"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "plot",
+   "patterns": [
+      "I want to see a romance movie where two people who hate each other fall in love",
+      "I want to see an action movie where a detective investigates a terrible crime and they arrest him",
+      "I want to see a ___ movie where here is the plot summary it is very long and I get very specific about the cool movie I want to watch",
+      "Could you recommend a horror film that is very corny and is a classic",
+      "summary",
+      "movie that is about",
+      "I want to watch something that is",
+      "where it is",
+      "could you recommend a movie where",
+      "where"
+   ],
+   "responses": [
+      "[Recommended movie]"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "random",
+   "patterns": [
+      "I don't know what to watch",
+      "give me something random",
+      "Whatever you think"
+   ],
+   "responses": [
+      "Here is a random film:"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "love",
+   "patterns": [
+      "I love you",
+      "Will you marry me",
+      "Do you love me"
+   ],
+   "responses": [
+      "My love is only for movies."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "salutation",
+   "patterns": [
+      "okk",
+      "okie",
+      "nice work",
+      "well done",
+      "good job",
+      "thanks for the help",
+      "Thank You",
+      "its ok",
+      "Thanks",
+      "Good work",
+      "k",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "I am glad I helped you",
+      "Welcome, anything else I can assist you with?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "what can you do",
+      "what are the thing you can do",
+      "things you can do",
+      "what can u do for me",
+      "how u can help me",
+      "why i should use you"
+   ],
+   "responses": [
+      "I can answer movie recommendation questions!",
+      "You can ask me questions regarding movies, and I will try to answer them"
+   ],
+   "context_set": ""
+}
+]
+}
